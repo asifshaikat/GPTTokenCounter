@@ -42,19 +42,8 @@ pip install tiktoken rich tabulate
 5. **Examine the Token Comparison**:
     - The next step showcases a table contrasting the tokenization of the English phrase with the selected language, leveraging the `gpt-3.5-turbo` model.
 
-### Functions Breakdown
 
-- **show_introduction()**: Introduces the user to the world of tokenization.
-  
-- **num_tokens_from_string(string: str, model_name: str)**: Provides the token count of a string using a designated model.
-  
-- **display_word_parameters()**: Unveils a formatted table elucidating the tokenization difference between an English phrase and a counterpart in a different language.
-  
-- **get_custom_language_input()**: Allows for custom language pair inputs from users.
-  
-- **main()**: The beating heart of the tool, directing the entire operation.
-
-### Points to Note
+### Useful Points
 
 - The `tiktoken` library is the backbone, facilitating token count based on the model.
   
