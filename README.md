@@ -42,8 +42,18 @@ pip install tiktoken rich tabulate
 5. **Examine the Token Comparison**:
     - The next step showcases a table contrasting the tokenization of the English phrase with the selected language, leveraging the `gpt-3.5-turbo` model.
 
+### Input
 
-### Useful Points
+| Language | English    | Bangla    |
+| :---:   | :---: | :---: |
+| Sentence | I speak Bengali   | আমি বাংলায় কথা কই   |
+
+### Output
+
+
+![token_count](https://github.com/asifshaikat/GPTTokenCounter/assets/3155401/261e2c41-ebca-450f-8118-23266572b450)
+
+### Points to be noted
 
 - The `tiktoken` library is the backbone, facilitating token count based on the model.
   
